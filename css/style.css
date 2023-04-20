@@ -1,0 +1,311 @@
+body{
+  margin: 0;
+}
+*{
+  box-sizing: border-box;
+}
+.header{
+  width: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #262626;
+  overflow: hidden;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+.container{
+  width: 95%;
+  margin: auto;
+  overflow: hidden;
+}
+.header h2{
+  color: white;
+  width: 80%;
+  float: left;
+  margin:10px 0 15px 0;
+}
+.header span{
+  font-weight: lighter;
+  color: #5faa15;
+}
+.header .but{
+  width: 20%;
+  float: left;
+}
+.header button{
+  float: right;
+  background:#7AA93C;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  padding: 8px 17px;
+  font-size: 14px;
+  font-weight: normal;
+  border-bottom: 2px solid #688f36;
+  margin-top: 5px;
+}
+.header button:hover{
+  background: #6d9e2c;
+}
+.nav{
+
+  position: relative;
+  margin-top: 70px;
+}
+.contain{
+  width: 85%;
+  margin: auto;
+  overflow: hidden;
+}
+.contain .logo{
+  width: 20%;
+  float: left;
+}
+.contain .navbar{
+  width: 80%;
+  float: left;
+  overflow: hidden;
+ 
+}
+.contain .navbar .box{
+  float: right;
+}
+.contain .navbar ul{
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+.contain .navbar ul li{
+  float: left;
+  list-style: none;
+  padding-top: 30px;
+}
+.contain .navbar ul li a{
+  text-decoration: none;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  padding-right: 45px;
+  padding-bottom: 20px;
+  display: block;
+  transition: all 0.5s;
+}
+.contain .navbar ul li a:hover{
+  color: gray;
+}
+.contain .navbar ul li .gray{
+  color: gray;
+}
+.contain .navbar ul li .drop a{
+  font-weight:normal;
+  font-size: 14px;
+  padding-bottom: 15px;
+
+}
+.drop{
+  display: none;
+  position: absolute;
+  top: 85%;
+  transition-delay: .5s;
+  z-index: 1;
+}
+
+.contain .navbar ul li:hover .drop{
+  display: block;
+}
+.pra{
+  width: 100%;
+  height: 300px;
+  font-family: Arial, Helvetica, sans-serif;
+  position: relative;
+}
+.pra p{
+  width: 50%;
+  height: 100px;
+  text-align: center;
+  font-size: 34px;
+  position: absolute;
+  line-height: 1.5;
+  word-spacing: 5px;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+}
+.pra p span{
+  font-weight: bold;
+}
+.img{
+  text-align: center;
+}
+.img2{
+  overflow: hidden;
+}
+.logo-area {
+  margin-top: 50px;
+  overflow: hidden;
+}
+ .logo-area img{
+  width: 100%;
+  height: 440px;
+  float: left;
+}
+
+.box2{
+  width: 66.67%;
+  float: left;
+  position: relative;
+}
+.box22{
+  width: 100%;
+  height: 440px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: black;
+}
+.logo-area h3{
+  text-align: center;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  margin-top: 200px;
+  margin-bottom: 0;
+}
+  .logo-area p{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    text-align: center;
+  }
+.box3{
+  width: 33.33%;
+  float: left;
+  position: relative;
+}
+
+.box4, .box5, .box6{
+  width: 33.33%;
+  float: left;
+  position: relative;
+}
+
+.img3{
+  overflow: hidden;
+}
+.box7{
+  width: 33.33%;
+  float: left;
+  position: relative;
+}
+.box8{
+  width: 66.67%;
+  float: left;
+  position: relative;
+}
+
+.box9{
+  width: 67%;
+  float: left;
+  position: relative;
+}
+.box9 img{
+  height: 904px;
+}
+.bo img{
+  height:452px;
+}
+
+.bo{
+  width: 33%;
+  float: left;
+  overflow: hidden;
+}
+.logo-area2{
+  overflow: hidden;
+  margin-bottom: 80px;
+}
+.logo-area2 img{
+width: 100%;
+float: left;
+
+}
+.end{
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 50px 0;
+  overflow: hidden;
+}
+.end a{
+  color: grey;
+  text-decoration: none;
+  transition: all .5s;
+}
+.end a:hover{
+  color: black;
+}
+.box23{
+  width: 100%;
+  height: 904px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: black;
+}
+.box23 h3{
+  text-align: center;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  margin-top: 450px;
+  margin-bottom: 0;
+}
+.box23 p{
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 11px;
+  text-align: center;
+  }
+  .box10{
+    position: relative;
+    width: 100%;
+    height: 452px;
+  }
+  .box11{
+    position: relative;
+    width: 100%;
+    height: 452px;
+  }
+.box24{
+    width: 100%;
+    height: 452px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: black;
+}
+.box24 h3{
+  text-align: center;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  margin-top:200px;
+  margin-bottom: 0;
+}
+.box24 p{
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 11px;
+  text-align: center;
+}
+.hover{
+  opacity: 0;
+  transition: all .8s;
+}
+.home:hover .hover{
+  opacity: 1;
+}
+.gif{
+  text-align: center;
+}
